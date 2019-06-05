@@ -1,0 +1,135 @@
+@font-face {
+    font-family:  Yekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('Yekan/Yekan.eot');
+    src: url('Yekan/Yekan.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('Yekan/Yekan.woff') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('Yekan/Yekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('Yekan/Yekan.ttf') format('truetype');
+}
+
+/* General Styles */
+
+a{
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2196f3;
+}
+
+body{
+    direction: rtl;
+    font-family: Yekan,Tahoma,sans-serif ;
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #f3f3f3;
+}
+
+#container{
+    font-family: Tahoma;
+    font-size: 12px;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header */
+
+#blogHeader {
+    border-bottom: 5px solid #84b9ff ;
+    height: 60px;
+    width: 100%;
+    background: #fff;
+}
+
+#container{
+    width: 780px;
+    margin: auto;
+    position: relative;
+    top: -60px;
+}
+
+#header #blogfalOGO{
+    float: left;
+    margin-left: 2px;
+}
+
+#nav{
+    height: 30px;
+    border: 1px solid #dddddd;
+    background-color: #fcfcfc;
+    text-align: left;
+    margin-bottom: 5px;
+    color: black;
+    direction: rtl;
+    text-align: right;
+    direction: rtl;
+    margin-top: 10px;
+}
+
+#navR{
+    float: right;
+    display: inline-block;
+    padding-top: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: gray;
+}
+
+#navL{
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: gray;
+}
+
+#sidebar{
+    float: right;
+    width: 152px;
+    border: 1px solid #dddddd;
+}
+
+#sidebar a{
+    width: 100%;
+    line-height: 28px;
+
+    color: black;
+    background: #fafafa;
+    color: black;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#sidebar a:link{
+    display: block;
+    padding-right: 5px;
+}
+
+#sidebar a:hover{
+    background: #2196f3;
+    border-bottom: 1px solid #2196f3;
+    color: #fff;
+}
+
+#mainMenu{
+    float: left;
+    width: 600px;
+}
